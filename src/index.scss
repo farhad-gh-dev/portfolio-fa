@@ -3,8 +3,6 @@
 @import "~@fortawesome/fontawesome-free/scss/brands.scss";
 @import "~@fortawesome/fontawesome-free/scss/regular.scss";
 
-
-
 $primary-color: #fdd5c8;
 $secondary-color: darken($primary-color, 15);
 
@@ -26,7 +24,6 @@ $secondary-color: darken($primary-color, 15);
   }
 }
 
-
 * {
   box-sizing: border-box;
 }
@@ -38,6 +35,8 @@ html {
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .section-padding {
@@ -56,11 +55,8 @@ p {
   font-weight: 400;
 }
 
-
-
-
-@import './components/Header/Header';
-@import './components/Projects/project';
-@import './components/About/About';
-@import './components/Contact/contact';
-@import './components/Footer/Footer';
+@import "./components/Header/Header";
+@import "./components/Projects/project";
+@import "./components/About/About";
+@import "./components/Contact/contact";
+@import "./components/Footer/Footer";
