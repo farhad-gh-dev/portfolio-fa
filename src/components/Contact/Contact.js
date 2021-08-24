@@ -16,12 +16,12 @@ function Contact() {
                   href="mailto:farhad.dev.contact@gmail.com"
                   className="text-dark text-decoration-none"
                 >
-                  Mohammadhosein.forbusiness@gmail.com
+                  farhad.dev.contact@gmail.com
                 </a>
               </p>
               <p className="phone-number">
                 <i className="fa fa-phone"></i>
-                0903-3562044
+                0930-8349179
               </p>
             </div>
           </div>

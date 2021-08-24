@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar/Navbar";
-import profilePic from "../../images/website-profile2.jpg";
+import profilePic from "../../images/profile-image.jpg";
 
 function Header() {
   const social_media_data = [
